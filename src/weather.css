@@ -1,3 +1,39 @@
+:root {
+  --primary-color: lightblue;
+  --secondary-color: grey;
+}
+
 .Weather {
-  border: 1px solid pink;
+  border: 1px solid whitesmoke;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Weather .find-weather {
+  margin: 30px;
+  width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+
+.Weather .input-button {
+  margin: 30px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather .weather-details {
+  color: var(--secondary-color);
 }
