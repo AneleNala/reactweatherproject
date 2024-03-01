@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
 
-      <Weather/>
+      <Weather city="Johannesburg"/>
     <footer className="text-center fs-4">
             This is coded by <a href="https://github.com/AneleNala">Anele Nala </a> and <a href="https://github.com/AneleNala/reactweatherproject">open-sourced</a>
         </footer>
