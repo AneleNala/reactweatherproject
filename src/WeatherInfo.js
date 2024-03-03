@@ -35,7 +35,7 @@ export default function WeatherInfo(props){
             <div className="col-6 weather-details">
                 <h3 className="text-end ">Weather</h3>
                 <h5 className="text-end">
-                    <FormattedDate date={props.data.date}/>
+                    <FormattedDate date={props.data.date} size={64}/>
                 </h5>
                 <h5 className="text-end text-capitalize">{props.data.description}</h5>
 

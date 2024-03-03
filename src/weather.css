@@ -3,6 +3,10 @@
   --secondary-color: grey;
 }
 
+.Weather h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
 .Weather {
   border: 1px solid whitesmoke;
   max-width: 900px;
@@ -36,4 +40,18 @@
 
 .Weather .weather-details {
   color: var(--secondary-color);
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 21px;
+  padding: 3px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -30px;
+}
+
+.Weather a {
+  text-decoration: none;
 }

@@ -1,10 +1,12 @@
 import React from "react";
 
 export default function WeatherTemperature(props){
-    return(
+
+         return(
         <div className="WeatherTemperature">
-        <h1> {Math.round(props.celsius)} °C </h1>
+        <h1> {Math.round(props.celsius)} 
+        <small className="unit"> °C </small>
+          </h1>
         </div>
-    
-    )
+         );
 }
